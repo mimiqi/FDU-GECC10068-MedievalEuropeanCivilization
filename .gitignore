@@ -3,3 +3,25 @@
 *.bak
 .DS_Store
 Thumbs.db
+
+# Full reference books remain local
+/讨论课/【参考书目】查理曼：罗马帝国皇帝？欧洲之父？/
+
+# Local runtimes and generated presentation previews
+node_modules/
+__pycache__/
+/讨论课/.制作过程/**/PPT预览/
+/讨论课/.制作过程/**/讲稿预览/
+/讨论课/.制作过程/**/预览/
+/讨论课/.制作过程/**/修改前/
+/讨论课/.制作过程/**/*.pptx
+/讨论课/.制作过程/**/*.docx
+/讨论课/.制作过程/**/*.png
+!/讨论课/.制作过程/assets/*.png
+/讨论课/.制作过程/**/*.log
+/讨论课/.制作过程/**/*.ndjson
+/讨论课/.制作过程/**/*.snapshot.json
+/讨论课/.制作过程/**/source-inspection.json
+/讨论课/.制作过程/**/anchors.json
+/讨论课/.制作过程/**/validation.json
+/讨论课/.制作过程/**/交付记录.json
